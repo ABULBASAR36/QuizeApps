@@ -14,7 +14,7 @@ class QuestionIdentifier extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CircleAvatar(
-      backgroundColor: isCorrectAnswer ? Colors.green : Colors.red,
+      backgroundColor: isCorrectAnswer ? const Color.fromARGB(255, 45, 231, 8) : const Color.fromARGB(255, 220, 28, 14),
       child: Text(
         '${questionIndex + 1}',
         style: const TextStyle(color: Colors.white),
